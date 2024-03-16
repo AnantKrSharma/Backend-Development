@@ -1,3 +1,5 @@
+// This is a basic backend Server designed for a Hospital System, using Express.js.
+
 const express = require('express')
 
 const app = express();
