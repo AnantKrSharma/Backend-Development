@@ -2,7 +2,7 @@ const { Router } = require("express");
 const router = Router();
 const userMiddleware = require("../middleware/user");
 
-const { Course, User } = require("../db");
+const { Course, User } = require("../Database");
 
 const jwt = require('jsonwebtoken')
 const {jwtSecret} = require('../config')
