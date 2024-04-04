@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://admin:12348765@cluster0.vjcfw4z.mongodb.net/Todo-App')
+mongoose.connect('<connection-string>')
 
 /*
 Todo{
